@@ -1,4 +1,4 @@
-group = "app.refourjr"
+group = "app.revanced"
 
 patches {
     about {

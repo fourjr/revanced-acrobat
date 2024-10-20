@@ -1,5 +1,5 @@
-public final class app/revanced/patches/acrobat/premium/UnlockPremiumPatch : app/revanced/patcher/patch/BytecodePatch {
-	public static final field INSTANCE Lapp/revanced/patches/acrobat/premium/UnlockPremiumPatch;
-	public fun execute (Lapp/revanced/patcher/data/BytecodeContext;)V
-	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
+public final class app/refourjr/patches/acrobat/premium/UnlockPremiumPatch : app/refourjr/patcher/patch/BytecodePatch {
+	public static final field INSTANCE Lapp/refourjr/patches/acrobat/premium/UnlockPremiumPatch;
+	public fun execute (Lapp/refourjr/patcher/data/BytecodeContext;)V
+	public synthetic fun execute (Lapp/refourjr/patcher/data/Context;)V
 }

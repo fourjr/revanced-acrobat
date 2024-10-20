@@ -1,11 +1,11 @@
-group = "app.revanced"
+group = "app.revanced.fourjr"
 
 patches {
     about {
-        name = "ReVanced Patches template"
-        description = "Patches template for ReVanced"
-        source = "git@github.com:revanced/revanced-patches-template.git"
-        author = "ReVanced"
+        name = "Revanced Acrobat"
+        description = "Adobe Acrobat premium patch for Revanced"
+        source = "git@github.com:fourjr/revanced-acrobat.git"
+        author = "fourjr"
         contact = "contact@revanced.app"
         website = "https://revanced.app"
         license = "GNU General Public License v3.0"

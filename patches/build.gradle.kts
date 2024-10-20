@@ -1,4 +1,4 @@
-group = "app.revanced.fourjr"
+group = "app.revanced"
 
 patches {
     about {

@@ -1,8 +1,5 @@
 name: Release
 
-permissions:
-  packages: write
-  contents: write
 
 on:
   workflow_dispatch:
@@ -14,6 +11,9 @@ on:
 jobs:
   release:
     name: Release
+    permissions:
+      packages: write
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

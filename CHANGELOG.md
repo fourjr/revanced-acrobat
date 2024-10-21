@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/fourjr/revanced-acrobat/compare/v1.1.0...v1.1.1) (2024-10-21)
+
+
+### Bug Fixes
+
+* please ([d30bcf8](https://github.com/fourjr/revanced-acrobat/commit/d30bcf88cc0aad1a20949135eb0a40683d10ae33))
+
 ## [1.0.5](https://github.com/fourjr/revanced-acrobat/compare/v1.0.4...v1.0.5) (2024-10-21)
 
 

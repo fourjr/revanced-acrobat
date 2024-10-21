@@ -21,11 +21,11 @@
       "@semantic-release/git",
       {
         "assets": [
-          "README.md",
           "CHANGELOG.md",
           "gradle.properties",
           "patches.json"
-        ]
+        ],
+        "message": "chore: Release v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
     [
@@ -33,7 +33,10 @@
       {
         "assets": [
           {
-            "path": "build/libs/revanced-patches*"
+            "path": "build/libs/revanced-acrobat*"
+          },
+          {
+            "path": "patches.json"
           }
         ],
         successComment: false

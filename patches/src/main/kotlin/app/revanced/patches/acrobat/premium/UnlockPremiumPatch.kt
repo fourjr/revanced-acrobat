@@ -13,6 +13,6 @@ val unlockPremiumPatch = bytecodePatch(
 
     execute {
         // Set hasPremium = true.
-        hasPurchasedMatch.mutableMethod.replaceInstruction(2, "const/4 v2, 0x1")
+        hasPurchasedMatch.mutableMethod.replaceInstruction(8, "const/4 v0, 0x1")
     }
 }

@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/fourjr/revanced-acrobat/compare/v1.0.4...v1.0.5) (2024-10-21)
+
+
+### Bug Fixes
+
+* FIX THE API FR ([b50532a](https://github.com/fourjr/revanced-acrobat/commit/b50532a4ad1b0793aa76c992790d31502188d079))
+
 ## [1.0.1](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.0...v1.0.1) (2024-02-21)
 
 

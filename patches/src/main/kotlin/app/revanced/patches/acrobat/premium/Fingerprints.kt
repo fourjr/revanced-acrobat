@@ -9,7 +9,7 @@ internal val hasPurchasedFingerprint = fingerprint {
     returns("Z")
     opcodes(
         Opcode.IGET_OBJECT,
-        Opcode.SGET_OBjECT,
+        Opcode.SGET_OBJECT,
         Opcode.INVOKE_VIRTUAL,
         Opcode.MOVE_RESULT,
         Opcode.IF_NEZ,

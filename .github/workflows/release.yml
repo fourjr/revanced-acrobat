@@ -2,6 +2,7 @@ name: Release
 
 permissions:
   packages: write
+  contents: write
 
 on:
   workflow_dispatch:
@@ -48,6 +49,4 @@ jobs:
           fingerprint: ${{ vars.GPG_FINGERPRINT }}
 
       - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.REPOSITORY_PUSH_ACCESS }}
         run: npm exec semantic-release

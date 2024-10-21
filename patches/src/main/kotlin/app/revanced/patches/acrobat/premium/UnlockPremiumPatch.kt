@@ -1,6 +1,5 @@
 package app.revanced.patches.acrobat.premium
 
-import app.revanced.util.exception
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.revanced.patcher.patch.BytecodePatch
@@ -19,6 +18,6 @@ object UnlockPremiumPatch : BytecodePatch(
     override fun execute(context: BytecodeContext) {
         // Set hasPremium = true.
         HasPurchasedFingerprint.result?.mutableMethod?.replaceInstruction(2, "const/4 v2, 0x1")
-            ?: throw HasPurchasedFingerprint.exception
+            ?: throw IllegalArgumentException()
     }
 }

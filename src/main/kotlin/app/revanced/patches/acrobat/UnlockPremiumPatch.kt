@@ -1,4 +1,4 @@
-package app.revanced.patches.acrobat.premium
+package app.revanced.patches.acrobat
 
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.InstructionExtensions.replaceInstruction

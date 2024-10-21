@@ -90,7 +90,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/revanced/revanced-patches-template")
+            url = uri("https://maven.pkg.github.com/fourjr/revanced-acrobat")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
@@ -99,7 +99,7 @@ publishing {
     }
 
     publications {
-        create<MavenPublication>("revanced-patches-publication") {
+        create<MavenPublication>("revanced-acrobat-publication") {
             from(components["java"])
 
             pom {
@@ -133,5 +133,5 @@ publishing {
 signing {
     useGpgCmd()
 
-    sign(publishing.publications["revanced-patches-publication"])
+    sign(publishing.publications["revanced-acrobat-publication"])
 }

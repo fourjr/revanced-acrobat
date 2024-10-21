@@ -16,7 +16,7 @@ object UnlockPremiumPatch : BytecodePatch(
     setOf(HasPurchasedFingerprint)
 ){
     override fun execute(context: BytecodeContext) {
-        // Set hasPremium = true using smaliInstruction
+        // Set hasPremium = true using smaliInstructions
         HasPurchasedFingerprint.result?.mutableMethod?.replaceInstruction(2, "const/4 v2, 0x1")
             ?: throw IllegalArgumentException()
     }

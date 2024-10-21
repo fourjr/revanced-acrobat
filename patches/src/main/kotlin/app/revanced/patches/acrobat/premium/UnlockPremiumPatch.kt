@@ -8,7 +8,7 @@ import app.revanced.patcher.patch.annotation.Patch
 import app.revanced.patches.acrobat.premium.fingerprints.HasPurchasedFingerprint
 
 @Patch(
-    name = "Unlock premium",
+    name = "Unlock premium for acrobat",
     compatiblePackages = [CompatiblePackage("com.adobe.reader")]
 )
 @Suppress("unused")

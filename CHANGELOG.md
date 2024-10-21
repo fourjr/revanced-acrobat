@@ -1,3 +1,5 @@
+## [1.1.8](https://github.com/fourjr/revanced-acrobat/compare/v1.1.7...v1.1.8) (2024-10-21)
+
 ## [1.1.7](https://github.com/fourjr/revanced-acrobat/compare/v1.1.6...v1.1.7) (2024-10-21)
 
 ## [1.1.6](https://github.com/fourjr/revanced-acrobat/compare/v1.1.5...v1.1.6) (2024-10-21)

@@ -1,4 +1,4 @@
-package app.revanced.patches.acrobat.fingerprints
+package app.revanced.patches.acrobat.premium.fingerprints
 
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.MethodFingerprint

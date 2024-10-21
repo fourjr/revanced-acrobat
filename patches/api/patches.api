@@ -1,6 +1,4 @@
-public final class app/revanced/patches/acrobat/premium/UnlockPremiumPatch : app/revanced/patcher/patch/BytecodePatch {
-	public static final field INSTANCE Lapp/revanced/patches/acrobat/premium/UnlockPremiumPatch;
-	public fun execute (Lapp/revanced/patcher/data/BytecodeContext;)V
-	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
+public final class app/revanced/patches/acrobat/premium/UnlockPremiumPatchKt {
+	public static final fun getUnlockPremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
